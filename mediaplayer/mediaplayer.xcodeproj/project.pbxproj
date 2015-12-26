@@ -12,16 +12,17 @@
 		663055A91C2EB97700EF92C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663055A71C2EB97700EF92C1 /* LaunchScreen.storyboard */; };
 		663055CA1C2EBB0F00EF92C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663055C91C2EBB0F00EF92C1 /* ViewController.swift */; };
 		663055CC1C2EBB2D00EF92C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663055CB1C2EBB2D00EF92C1 /* Main.storyboard */; };
-		663055D81C2EBB9F00EF92C1 /* ADAGIO.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055CE1C2EBB9F00EF92C1 /* ADAGIO.PNG */; };
-		663055D91C2EBB9F00EF92C1 /* AmarEsSoloAmor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055CF1C2EBB9F00EF92C1 /* AmarEsSoloAmor.mp3 */; };
-		663055DA1C2EBB9F00EF92C1 /* ChicasMalas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055D01C2EBB9F00EF92C1 /* ChicasMalas.mp3 */; };
-		663055DB1C2EBB9F00EF92C1 /* CHICASMALAS.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055D11C2EBB9F00EF92C1 /* CHICASMALAS.PNG */; };
-		663055DC1C2EBB9F00EF92C1 /* ElDespertar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055D21C2EBB9F00EF92C1 /* ElDespertar.mp3 */; };
-		663055DD1C2EBB9F00EF92C1 /* MINAGE.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055D31C2EBB9F00EF92C1 /* MINAGE.PNG */; };
-		663055DE1C2EBB9F00EF92C1 /* MONICA4.0.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055D41C2EBB9F00EF92C1 /* MONICA4.0.PNG */; };
-		663055DF1C2EBB9F00EF92C1 /* PALABRAMUJER.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055D51C2EBB9F00EF92C1 /* PALABRAMUJER.PNG */; };
-		663055E01C2EBB9F00EF92C1 /* PanteraEnLibertad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055D61C2EBB9F00EF92C1 /* PanteraEnLibertad.mp3 */; };
-		663055E11C2EBB9F00EF92C1 /* Sobrevivire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055D71C2EBB9F00EF92C1 /* Sobrevivire.mp3 */; };
+		663055EE1C2EBD0300EF92C1 /* ADAGIO.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055E31C2EBD0300EF92C1 /* ADAGIO.PNG */; };
+		663055EF1C2EBD0300EF92C1 /* AmarEsSoloAmor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055E41C2EBD0300EF92C1 /* AmarEsSoloAmor.mp3 */; };
+		663055F01C2EBD0300EF92C1 /* AmorEsSoloAmar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055E51C2EBD0300EF92C1 /* AmorEsSoloAmar.mp3 */; };
+		663055F11C2EBD0300EF92C1 /* ChicasMalas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055E61C2EBD0300EF92C1 /* ChicasMalas.mp3 */; };
+		663055F21C2EBD0300EF92C1 /* CHICASMALAS.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055E71C2EBD0300EF92C1 /* CHICASMALAS.PNG */; };
+		663055F31C2EBD0300EF92C1 /* ElDespertar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055E81C2EBD0300EF92C1 /* ElDespertar.mp3 */; };
+		663055F41C2EBD0300EF92C1 /* MINAGE.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055E91C2EBD0300EF92C1 /* MINAGE.PNG */; };
+		663055F51C2EBD0300EF92C1 /* MONICA4.0.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055EA1C2EBD0300EF92C1 /* MONICA4.0.PNG */; };
+		663055F61C2EBD0300EF92C1 /* PALABRAMUJER.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055EB1C2EBD0300EF92C1 /* PALABRAMUJER.PNG */; };
+		663055F71C2EBD0300EF92C1 /* PanteraEnLibertad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055EC1C2EBD0300EF92C1 /* PanteraEnLibertad.mp3 */; };
+		663055F81C2EBD0300EF92C1 /* Sobrevivire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055ED1C2EBD0300EF92C1 /* Sobrevivire.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +33,17 @@
 		663055AA1C2EB97700EF92C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		663055C91C2EBB0F00EF92C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		663055CB1C2EBB2D00EF92C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		663055CE1C2EBB9F00EF92C1 /* ADAGIO.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADAGIO.PNG; sourceTree = "<group>"; };
-		663055CF1C2EBB9F00EF92C1 /* AmarEsSoloAmor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmarEsSoloAmor.mp3; sourceTree = "<group>"; };
-		663055D01C2EBB9F00EF92C1 /* ChicasMalas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChicasMalas.mp3; sourceTree = "<group>"; };
-		663055D11C2EBB9F00EF92C1 /* CHICASMALAS.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHICASMALAS.PNG; sourceTree = "<group>"; };
-		663055D21C2EBB9F00EF92C1 /* ElDespertar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ElDespertar.mp3; sourceTree = "<group>"; };
-		663055D31C2EBB9F00EF92C1 /* MINAGE.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MINAGE.PNG; sourceTree = "<group>"; };
-		663055D41C2EBB9F00EF92C1 /* MONICA4.0.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MONICA4.0.PNG; sourceTree = "<group>"; };
-		663055D51C2EBB9F00EF92C1 /* PALABRAMUJER.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PALABRAMUJER.PNG; sourceTree = "<group>"; };
-		663055D61C2EBB9F00EF92C1 /* PanteraEnLibertad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PanteraEnLibertad.mp3; sourceTree = "<group>"; };
-		663055D71C2EBB9F00EF92C1 /* Sobrevivire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sobrevivire.mp3; sourceTree = "<group>"; };
+		663055E31C2EBD0300EF92C1 /* ADAGIO.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADAGIO.PNG; sourceTree = "<group>"; };
+		663055E41C2EBD0300EF92C1 /* AmarEsSoloAmor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmarEsSoloAmor.mp3; sourceTree = "<group>"; };
+		663055E51C2EBD0300EF92C1 /* AmorEsSoloAmar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmorEsSoloAmar.mp3; sourceTree = "<group>"; };
+		663055E61C2EBD0300EF92C1 /* ChicasMalas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChicasMalas.mp3; sourceTree = "<group>"; };
+		663055E71C2EBD0300EF92C1 /* CHICASMALAS.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHICASMALAS.PNG; sourceTree = "<group>"; };
+		663055E81C2EBD0300EF92C1 /* ElDespertar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ElDespertar.mp3; sourceTree = "<group>"; };
+		663055E91C2EBD0300EF92C1 /* MINAGE.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MINAGE.PNG; sourceTree = "<group>"; };
+		663055EA1C2EBD0300EF92C1 /* MONICA4.0.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MONICA4.0.PNG; sourceTree = "<group>"; };
+		663055EB1C2EBD0300EF92C1 /* PALABRAMUJER.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PALABRAMUJER.PNG; sourceTree = "<group>"; };
+		663055EC1C2EBD0300EF92C1 /* PanteraEnLibertad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PanteraEnLibertad.mp3; sourceTree = "<group>"; };
+		663055ED1C2EBD0300EF92C1 /* Sobrevivire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sobrevivire.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,7 @@
 		663055921C2EB97600EF92C1 = {
 			isa = PBXGroup;
 			children = (
-				663055CD1C2EBB8600EF92C1 /* media */,
+				663055E21C2EBD0300EF92C1 /* media */,
 				6630559D1C2EB97600EF92C1 /* mediaplayer */,
 				6630559C1C2EB97600EF92C1 /* Products */,
 			);
@@ -85,21 +87,23 @@
 			path = mediaplayer;
 			sourceTree = "<group>";
 		};
-		663055CD1C2EBB8600EF92C1 /* media */ = {
+		663055E21C2EBD0300EF92C1 /* media */ = {
 			isa = PBXGroup;
 			children = (
-				663055CE1C2EBB9F00EF92C1 /* ADAGIO.PNG */,
-				663055CF1C2EBB9F00EF92C1 /* AmarEsSoloAmor.mp3 */,
-				663055D01C2EBB9F00EF92C1 /* ChicasMalas.mp3 */,
-				663055D11C2EBB9F00EF92C1 /* CHICASMALAS.PNG */,
-				663055D21C2EBB9F00EF92C1 /* ElDespertar.mp3 */,
-				663055D31C2EBB9F00EF92C1 /* MINAGE.PNG */,
-				663055D41C2EBB9F00EF92C1 /* MONICA4.0.PNG */,
-				663055D51C2EBB9F00EF92C1 /* PALABRAMUJER.PNG */,
-				663055D61C2EBB9F00EF92C1 /* PanteraEnLibertad.mp3 */,
-				663055D71C2EBB9F00EF92C1 /* Sobrevivire.mp3 */,
+				663055E31C2EBD0300EF92C1 /* ADAGIO.PNG */,
+				663055E41C2EBD0300EF92C1 /* AmarEsSoloAmor.mp3 */,
+				663055E51C2EBD0300EF92C1 /* AmorEsSoloAmar.mp3 */,
+				663055E61C2EBD0300EF92C1 /* ChicasMalas.mp3 */,
+				663055E71C2EBD0300EF92C1 /* CHICASMALAS.PNG */,
+				663055E81C2EBD0300EF92C1 /* ElDespertar.mp3 */,
+				663055E91C2EBD0300EF92C1 /* MINAGE.PNG */,
+				663055EA1C2EBD0300EF92C1 /* MONICA4.0.PNG */,
+				663055EB1C2EBD0300EF92C1 /* PALABRAMUJER.PNG */,
+				663055EC1C2EBD0300EF92C1 /* PanteraEnLibertad.mp3 */,
+				663055ED1C2EBD0300EF92C1 /* Sobrevivire.mp3 */,
 			);
 			name = media;
+			path = mediaplayer/media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,19 +164,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663055DD1C2EBB9F00EF92C1 /* MINAGE.PNG in Resources */,
-				663055E11C2EBB9F00EF92C1 /* Sobrevivire.mp3 in Resources */,
-				663055DC1C2EBB9F00EF92C1 /* ElDespertar.mp3 in Resources */,
-				663055DA1C2EBB9F00EF92C1 /* ChicasMalas.mp3 in Resources */,
+				663055EF1C2EBD0300EF92C1 /* AmarEsSoloAmor.mp3 in Resources */,
+				663055F81C2EBD0300EF92C1 /* Sobrevivire.mp3 in Resources */,
+				663055F21C2EBD0300EF92C1 /* CHICASMALAS.PNG in Resources */,
+				663055F01C2EBD0300EF92C1 /* AmorEsSoloAmar.mp3 in Resources */,
+				663055EE1C2EBD0300EF92C1 /* ADAGIO.PNG in Resources */,
+				663055F71C2EBD0300EF92C1 /* PanteraEnLibertad.mp3 in Resources */,
+				663055F11C2EBD0300EF92C1 /* ChicasMalas.mp3 in Resources */,
+				663055F61C2EBD0300EF92C1 /* PALABRAMUJER.PNG in Resources */,
 				663055CC1C2EBB2D00EF92C1 /* Main.storyboard in Resources */,
-				663055E01C2EBB9F00EF92C1 /* PanteraEnLibertad.mp3 in Resources */,
-				663055D91C2EBB9F00EF92C1 /* AmarEsSoloAmor.mp3 in Resources */,
 				663055A91C2EB97700EF92C1 /* LaunchScreen.storyboard in Resources */,
-				663055DB1C2EBB9F00EF92C1 /* CHICASMALAS.PNG in Resources */,
-				663055DE1C2EBB9F00EF92C1 /* MONICA4.0.PNG in Resources */,
-				663055D81C2EBB9F00EF92C1 /* ADAGIO.PNG in Resources */,
-				663055DF1C2EBB9F00EF92C1 /* PALABRAMUJER.PNG in Resources */,
+				663055F41C2EBD0300EF92C1 /* MINAGE.PNG in Resources */,
+				663055F31C2EBD0300EF92C1 /* ElDespertar.mp3 in Resources */,
 				663055A61C2EB97700EF92C1 /* Assets.xcassets in Resources */,
+				663055F51C2EBD0300EF92C1 /* MONICA4.0.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
