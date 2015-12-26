@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6630559F1C2EB97600EF92C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6630559E1C2EB97600EF92C1 /* AppDelegate.swift */; };
 		663055A61C2EB97700EF92C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663055A51C2EB97700EF92C1 /* Assets.xcassets */; };
 		663055A91C2EB97700EF92C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663055A71C2EB97700EF92C1 /* LaunchScreen.storyboard */; };
-		663055CA1C2EBB0F00EF92C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663055C91C2EBB0F00EF92C1 /* ViewController.swift */; };
 		663055CC1C2EBB2D00EF92C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663055CB1C2EBB2D00EF92C1 /* Main.storyboard */; };
 		663055EE1C2EBD0300EF92C1 /* ADAGIO.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055E31C2EBD0300EF92C1 /* ADAGIO.PNG */; };
 		663055EF1C2EBD0300EF92C1 /* AmarEsSoloAmor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055E41C2EBD0300EF92C1 /* AmarEsSoloAmor.mp3 */; };
@@ -23,15 +21,15 @@
 		663055F61C2EBD0300EF92C1 /* PALABRAMUJER.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 663055EB1C2EBD0300EF92C1 /* PALABRAMUJER.PNG */; };
 		663055F71C2EBD0300EF92C1 /* PanteraEnLibertad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055EC1C2EBD0300EF92C1 /* PanteraEnLibertad.mp3 */; };
 		663055F81C2EBD0300EF92C1 /* Sobrevivire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 663055ED1C2EBD0300EF92C1 /* Sobrevivire.mp3 */; };
+		66306A401C2EC02300EF92C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66306A3F1C2EC02300EF92C1 /* ViewController.swift */; };
+		66306A421C2EC10C00EF92C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66306A411C2EC10C00EF92C1 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6630559B1C2EB97600EF92C1 /* mediaplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mediaplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6630559E1C2EB97600EF92C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663055A51C2EB97700EF92C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663055A81C2EB97700EF92C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663055AA1C2EB97700EF92C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		663055C91C2EBB0F00EF92C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		663055CB1C2EBB2D00EF92C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		663055E31C2EBD0300EF92C1 /* ADAGIO.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADAGIO.PNG; sourceTree = "<group>"; };
 		663055E41C2EBD0300EF92C1 /* AmarEsSoloAmor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmarEsSoloAmor.mp3; sourceTree = "<group>"; };
@@ -44,6 +42,8 @@
 		663055EB1C2EBD0300EF92C1 /* PALABRAMUJER.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PALABRAMUJER.PNG; sourceTree = "<group>"; };
 		663055EC1C2EBD0300EF92C1 /* PanteraEnLibertad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PanteraEnLibertad.mp3; sourceTree = "<group>"; };
 		663055ED1C2EBD0300EF92C1 /* Sobrevivire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sobrevivire.mp3; sourceTree = "<group>"; };
+		66306A3F1C2EC02300EF92C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66306A411C2EC10C00EF92C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 		6630559D1C2EB97600EF92C1 /* mediaplayer */ = {
 			isa = PBXGroup;
 			children = (
-				663055C91C2EBB0F00EF92C1 /* ViewController.swift */,
-				6630559E1C2EB97600EF92C1 /* AppDelegate.swift */,
+				66306A411C2EC10C00EF92C1 /* AppDelegate.swift */,
+				66306A3F1C2EC02300EF92C1 /* ViewController.swift */,
 				663055A51C2EB97700EF92C1 /* Assets.xcassets */,
 				663055A71C2EB97700EF92C1 /* LaunchScreen.storyboard */,
 				663055CB1C2EBB2D00EF92C1 /* Main.storyboard */,
@@ -188,8 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663055CA1C2EBB0F00EF92C1 /* ViewController.swift in Sources */,
-				6630559F1C2EB97600EF92C1 /* AppDelegate.swift in Sources */,
+				66306A421C2EC10C00EF92C1 /* AppDelegate.swift in Sources */,
+				66306A401C2EC02300EF92C1 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
