@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--AudioPlayer-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="AudioPlayer" id="BYZ-38-t0r" customClass="ViewController" customModule="audioplayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZG-mU-LAh">
+                                <rect key="frame" x="16" y="365" width="293" height="188"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Xz8-SJ-yvk"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="bS7-Bm-VK4"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ADAGIO.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="Gia-DB-1Kt">
+                                <rect key="frame" x="40" y="53" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="MAJ-hQ-18D"/>
+                                    <constraint firstAttribute="width" constant="240" id="tC9-5D-7TW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8H-Wv-bBp">
+                                <rect key="frame" x="63" y="20" width="222" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222" id="52T-GU-Nyb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1Jn-Jd-bZ2">
+                                <rect key="frame" x="38" y="291" width="249" height="31"/>
+                                <connections>
+                                    <action selector="changeVolume" destination="BYZ-38-t0r" eventType="valueChanged" id="4tG-Zg-JF3"/>
+                                </connections>
+                            </slider>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="Kaf-o0-oUi">
+                                <rect key="frame" x="40" y="329" width="240" height="29"/>
+                                <segments>
+                                    <segment title="Play"/>
+                                    <segment title="Pause"/>
+                                    <segment title="Stop"/>
+                                    <segment title="Shuffle"/>
+                                </segments>
+                                <connections>
+                                    <action selector="audiocontrol" destination="BYZ-38-t0r" eventType="valueChanged" id="SPy-eO-W2I"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BZG-mU-LAh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0Ma-pd-yNx"/>
+                            <constraint firstItem="Kaf-o0-oUi" firstAttribute="top" secondItem="Gia-DB-1Kt" secondAttribute="bottom" constant="36" id="0cB-Jg-jts"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BZG-mU-LAh" secondAttribute="bottom" constant="15" id="BZB-z5-DWy"/>
+                            <constraint firstItem="a8H-Wv-bBp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="DvG-a3-xA0"/>
+                            <constraint firstItem="Gia-DB-1Kt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="33" id="JgV-eq-r8U"/>
+                            <constraint firstItem="BZG-mU-LAh" firstAttribute="top" secondItem="Gia-DB-1Kt" secondAttribute="bottom" constant="72" id="SLX-nx-Ij7"/>
+                            <constraint firstItem="Kaf-o0-oUi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V7I-43-Ugn"/>
+                            <constraint firstItem="a8H-Wv-bBp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="14" id="Ynu-cs-qTr"/>
+                            <constraint firstItem="Kaf-o0-oUi" firstAttribute="leading" secondItem="Gia-DB-1Kt" secondAttribute="leading" id="c88-Ny-Iiy"/>
+                            <constraint firstItem="Kaf-o0-oUi" firstAttribute="leading" secondItem="Gia-DB-1Kt" secondAttribute="leading" id="csA-3C-TEu"/>
+                            <constraint firstItem="Kaf-o0-oUi" firstAttribute="top" secondItem="Gia-DB-1Kt" secondAttribute="bottom" constant="8" id="cxg-Fp-8pA"/>
+                            <constraint firstItem="1Jn-Jd-bZ2" firstAttribute="leading" secondItem="Kaf-o0-oUi" secondAttribute="leading" id="dYR-oE-FHR"/>
+                            <constraint firstItem="Kaf-o0-oUi" firstAttribute="top" secondItem="1Jn-Jd-bZ2" secondAttribute="bottom" constant="8" symbolic="YES" id="dYf-ze-Rdu"/>
+                            <constraint firstItem="Gia-DB-1Kt" firstAttribute="top" secondItem="a8H-Wv-bBp" secondAttribute="bottom" constant="8" id="dc4-yW-Ggu"/>
+                            <constraint firstItem="BZG-mU-LAh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="2.5" id="guC-i4-DIb"/>
+                            <constraint firstItem="1Jn-Jd-bZ2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="2.5" id="nx4-kZ-lxE"/>
+                            <constraint firstItem="Gia-DB-1Kt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xf9-TZ-eIk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="c88-Ny-Iiy"/>
+                                <exclude reference="cxg-Fp-8pA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="uiControlAudio" destination="Kaf-o0-oUi" id="r3c-l2-YQv"/>
+                        <outlet property="uiImgPortada" destination="Gia-DB-1Kt" id="kwS-hk-Rvn"/>
+                        <outlet property="uiLabelTitulo" destination="a8H-Wv-bBp" id="VrK-WH-hAI"/>
+                        <outlet property="uiPickerCanciones" destination="BZG-mU-LAh" id="ONc-v9-OTq"/>
+                        <outlet property="uiSliderVolumen" destination="1Jn-Jd-bZ2" id="bsm-qC-HQN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="413"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ADAGIO.PNG" width="235" height="235"/>
+    </resources>
+</document>

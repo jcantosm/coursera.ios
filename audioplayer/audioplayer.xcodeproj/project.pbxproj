@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6669F2721C2AB87C005804B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669F2711C2AB87C005804B2 /* AppDelegate.swift */; };
+		6669F2741C2AB87C005804B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669F2731C2AB87C005804B2 /* ViewController.swift */; };
+		6669F2771C2AB87C005804B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2751C2AB87C005804B2 /* Main.storyboard */; };
+		6669F2791C2AB87C005804B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2781C2AB87C005804B2 /* Assets.xcassets */; };
+		6669F27C1C2AB87C005804B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6669F27A1C2AB87C005804B2 /* LaunchScreen.storyboard */; };
+		6669F2851C2ABA3B005804B2 /* Sobrevivire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2841C2ABA3B005804B2 /* Sobrevivire.mp3 */; };
+		6669F2871C2ABAD7005804B2 /* ChicasMalas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2861C2ABAD7005804B2 /* ChicasMalas.mp3 */; };
+		6669F2891C2ABB43005804B2 /* PanteraEnLibertad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2881C2ABB43005804B2 /* PanteraEnLibertad.mp3 */; };
+		6669F28B1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F28A1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 */; };
+		6669F28D1C2ABC1C005804B2 /* ElDespertar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F28C1C2ABC1C005804B2 /* ElDespertar.mp3 */; };
+		6669F2931C2ABCE4005804B2 /* ADAGIO.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F28E1C2ABCE4005804B2 /* ADAGIO.PNG */; };
+		6669F2941C2ABCE4005804B2 /* CHICASMALAS.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F28F1C2ABCE4005804B2 /* CHICASMALAS.PNG */; };
+		6669F2951C2ABCE4005804B2 /* MINAGE.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2901C2ABCE4005804B2 /* MINAGE.PNG */; };
+		6669F2961C2ABCE4005804B2 /* MONICA4.0.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2911C2ABCE4005804B2 /* MONICA4.0.PNG */; };
+		6669F2971C2ABCE4005804B2 /* PALABRAMUJER.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2921C2ABCE4005804B2 /* PALABRAMUJER.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6669F26E1C2AB87B005804B2 /* audioplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6669F2711C2AB87C005804B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6669F2731C2AB87C005804B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6669F2761C2AB87C005804B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6669F2781C2AB87C005804B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6669F27B1C2AB87C005804B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6669F27D1C2AB87C005804B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6669F2841C2ABA3B005804B2 /* Sobrevivire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sobrevivire.mp3; path = audioplayer/Sobrevivire.mp3; sourceTree = "<group>"; };
+		6669F2861C2ABAD7005804B2 /* ChicasMalas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChicasMalas.mp3; sourceTree = "<group>"; };
+		6669F2881C2ABB43005804B2 /* PanteraEnLibertad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PanteraEnLibertad.mp3; sourceTree = "<group>"; };
+		6669F28A1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmarEsSoloAmor.mp3; sourceTree = "<group>"; };
+		6669F28C1C2ABC1C005804B2 /* ElDespertar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ElDespertar.mp3; sourceTree = "<group>"; };
+		6669F28E1C2ABCE4005804B2 /* ADAGIO.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADAGIO.PNG; sourceTree = "<group>"; };
+		6669F28F1C2ABCE4005804B2 /* CHICASMALAS.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHICASMALAS.PNG; sourceTree = "<group>"; };
+		6669F2901C2ABCE4005804B2 /* MINAGE.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MINAGE.PNG; sourceTree = "<group>"; };
+		6669F2911C2ABCE4005804B2 /* MONICA4.0.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MONICA4.0.PNG; sourceTree = "<group>"; };
+		6669F2921C2ABCE4005804B2 /* PALABRAMUJER.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PALABRAMUJER.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6669F26B1C2AB87B005804B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6669F2651C2AB87B005804B2 = {
+			isa = PBXGroup;
+			children = (
+				6669F2701C2AB87B005804B2 /* audioplayer */,
+				6669F2831C2AB8C5005804B2 /* resources */,
+				6669F26F1C2AB87B005804B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6669F26F1C2AB87B005804B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6669F26E1C2AB87B005804B2 /* audioplayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6669F2701C2AB87B005804B2 /* audioplayer */ = {
+			isa = PBXGroup;
+			children = (
+				6669F2711C2AB87C005804B2 /* AppDelegate.swift */,
+				6669F2731C2AB87C005804B2 /* ViewController.swift */,
+				6669F2751C2AB87C005804B2 /* Main.storyboard */,
+				6669F2781C2AB87C005804B2 /* Assets.xcassets */,
+				6669F27A1C2AB87C005804B2 /* LaunchScreen.storyboard */,
+				6669F27D1C2AB87C005804B2 /* Info.plist */,
+			);
+			path = audioplayer;
+			sourceTree = "<group>";
+		};
+		6669F2831C2AB8C5005804B2 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6669F28E1C2ABCE4005804B2 /* ADAGIO.PNG */,
+				6669F28F1C2ABCE4005804B2 /* CHICASMALAS.PNG */,
+				6669F2901C2ABCE4005804B2 /* MINAGE.PNG */,
+				6669F2911C2ABCE4005804B2 /* MONICA4.0.PNG */,
+				6669F2921C2ABCE4005804B2 /* PALABRAMUJER.PNG */,
+				6669F28C1C2ABC1C005804B2 /* ElDespertar.mp3 */,
+				6669F28A1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 */,
+				6669F2881C2ABB43005804B2 /* PanteraEnLibertad.mp3 */,
+				6669F2861C2ABAD7005804B2 /* ChicasMalas.mp3 */,
+				6669F2841C2ABA3B005804B2 /* Sobrevivire.mp3 */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6669F26D1C2AB87B005804B2 /* audioplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6669F2801C2AB87C005804B2 /* Build configuration list for PBXNativeTarget "audioplayer" */;
+			buildPhases = (
+				6669F26A1C2AB87B005804B2 /* Sources */,
+				6669F26B1C2AB87B005804B2 /* Frameworks */,
+				6669F26C1C2AB87B005804B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioplayer;
+			productName = audioplayer;
+			productReference = 6669F26E1C2AB87B005804B2 /* audioplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6669F2661C2AB87B005804B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Javier Cantos";
+				TargetAttributes = {
+					6669F26D1C2AB87B005804B2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6669F2691C2AB87B005804B2 /* Build configuration list for PBXProject "audioplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6669F2651C2AB87B005804B2;
+			productRefGroup = 6669F26F1C2AB87B005804B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6669F26D1C2AB87B005804B2 /* audioplayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6669F26C1C2AB87B005804B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6669F28D1C2ABC1C005804B2 /* ElDespertar.mp3 in Resources */,
+				6669F2951C2ABCE4005804B2 /* MINAGE.PNG in Resources */,
+				6669F2971C2ABCE4005804B2 /* PALABRAMUJER.PNG in Resources */,
+				6669F2941C2ABCE4005804B2 /* CHICASMALAS.PNG in Resources */,
+				6669F27C1C2AB87C005804B2 /* LaunchScreen.storyboard in Resources */,
+				6669F2851C2ABA3B005804B2 /* Sobrevivire.mp3 in Resources */,
+				6669F2961C2ABCE4005804B2 /* MONICA4.0.PNG in Resources */,
+				6669F2791C2AB87C005804B2 /* Assets.xcassets in Resources */,
+				6669F2871C2ABAD7005804B2 /* ChicasMalas.mp3 in Resources */,
+				6669F28B1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 in Resources */,
+				6669F2931C2ABCE4005804B2 /* ADAGIO.PNG in Resources */,
+				6669F2891C2ABB43005804B2 /* PanteraEnLibertad.mp3 in Resources */,
+				6669F2771C2AB87C005804B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6669F26A1C2AB87B005804B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6669F2741C2AB87C005804B2 /* ViewController.swift in Sources */,
+				6669F2721C2AB87C005804B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6669F2751C2AB87C005804B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6669F2761C2AB87C005804B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6669F27A1C2AB87C005804B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6669F27B1C2AB87C005804B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6669F27E1C2AB87C005804B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6669F27F1C2AB87C005804B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6669F2811C2AB87C005804B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = audioplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcantosm.audioplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6669F2821C2AB87C005804B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = audioplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcantosm.audioplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6669F2691C2AB87B005804B2 /* Build configuration list for PBXProject "audioplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6669F27E1C2AB87C005804B2 /* Debug */,
+				6669F27F1C2AB87C005804B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6669F2801C2AB87C005804B2 /* Build configuration list for PBXNativeTarget "audioplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6669F2811C2AB87C005804B2 /* Debug */,
+				6669F2821C2AB87C005804B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6669F2661C2AB87B005804B2 /* Project object */;
+}
