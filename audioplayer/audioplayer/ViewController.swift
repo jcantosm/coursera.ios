@@ -42,7 +42,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             
             // mostramos titulo / portada cancion seleccionada
             self.uiLabelTitulo.text = self.canciones[0][0]
-            self.uiImgPortada.image = UIImage(named: self.canciones[0][1])
+            self.uiImgPortada.image = UIImage(named: "resources\(self.canciones[0][1])")
             
         } catch {
             print("Error al iniciar reproductor de audio.")
