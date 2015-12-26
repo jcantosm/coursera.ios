@@ -12,16 +12,7 @@
 		6669F2771C2AB87C005804B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2751C2AB87C005804B2 /* Main.storyboard */; };
 		6669F2791C2AB87C005804B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2781C2AB87C005804B2 /* Assets.xcassets */; };
 		6669F27C1C2AB87C005804B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6669F27A1C2AB87C005804B2 /* LaunchScreen.storyboard */; };
-		6669F2851C2ABA3B005804B2 /* Sobrevivire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2841C2ABA3B005804B2 /* Sobrevivire.mp3 */; };
-		6669F2871C2ABAD7005804B2 /* ChicasMalas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2861C2ABAD7005804B2 /* ChicasMalas.mp3 */; };
-		6669F2891C2ABB43005804B2 /* PanteraEnLibertad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2881C2ABB43005804B2 /* PanteraEnLibertad.mp3 */; };
-		6669F28B1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F28A1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 */; };
-		6669F28D1C2ABC1C005804B2 /* ElDespertar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6669F28C1C2ABC1C005804B2 /* ElDespertar.mp3 */; };
-		6669F2931C2ABCE4005804B2 /* ADAGIO.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F28E1C2ABCE4005804B2 /* ADAGIO.PNG */; };
-		6669F2941C2ABCE4005804B2 /* CHICASMALAS.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F28F1C2ABCE4005804B2 /* CHICASMALAS.PNG */; };
-		6669F2951C2ABCE4005804B2 /* MINAGE.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2901C2ABCE4005804B2 /* MINAGE.PNG */; };
-		6669F2961C2ABCE4005804B2 /* MONICA4.0.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2911C2ABCE4005804B2 /* MONICA4.0.PNG */; };
-		6669F2971C2ABCE4005804B2 /* PALABRAMUJER.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6669F2921C2ABCE4005804B2 /* PALABRAMUJER.PNG */; };
+		66A1C1D61C2EADF3008DB178 /* resources in Resources */ = {isa = PBXBuildFile; fileRef = 66CE45CB1C2EA7D700F4CB2D /* resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +23,7 @@
 		6669F2781C2AB87C005804B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6669F27B1C2AB87C005804B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6669F27D1C2AB87C005804B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6669F2841C2ABA3B005804B2 /* Sobrevivire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sobrevivire.mp3; path = audioplayer/Sobrevivire.mp3; sourceTree = "<group>"; };
-		6669F2861C2ABAD7005804B2 /* ChicasMalas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChicasMalas.mp3; sourceTree = "<group>"; };
-		6669F2881C2ABB43005804B2 /* PanteraEnLibertad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PanteraEnLibertad.mp3; sourceTree = "<group>"; };
-		6669F28A1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmarEsSoloAmor.mp3; sourceTree = "<group>"; };
-		6669F28C1C2ABC1C005804B2 /* ElDespertar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ElDespertar.mp3; sourceTree = "<group>"; };
-		6669F28E1C2ABCE4005804B2 /* ADAGIO.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADAGIO.PNG; sourceTree = "<group>"; };
-		6669F28F1C2ABCE4005804B2 /* CHICASMALAS.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CHICASMALAS.PNG; sourceTree = "<group>"; };
-		6669F2901C2ABCE4005804B2 /* MINAGE.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MINAGE.PNG; sourceTree = "<group>"; };
-		6669F2911C2ABCE4005804B2 /* MONICA4.0.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MONICA4.0.PNG; sourceTree = "<group>"; };
-		6669F2921C2ABCE4005804B2 /* PALABRAMUJER.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PALABRAMUJER.PNG; sourceTree = "<group>"; };
+		66CE45CB1C2EA7D700F4CB2D /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = resources; path = audioplayer/resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +40,8 @@
 		6669F2651C2AB87B005804B2 = {
 			isa = PBXGroup;
 			children = (
+				66CE45CB1C2EA7D700F4CB2D /* resources */,
 				6669F2701C2AB87B005804B2 /* audioplayer */,
-				6669F2831C2AB8C5005804B2 /* resources */,
 				6669F26F1C2AB87B005804B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,23 +65,6 @@
 				6669F27D1C2AB87C005804B2 /* Info.plist */,
 			);
 			path = audioplayer;
-			sourceTree = "<group>";
-		};
-		6669F2831C2AB8C5005804B2 /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				6669F28E1C2ABCE4005804B2 /* ADAGIO.PNG */,
-				6669F28F1C2ABCE4005804B2 /* CHICASMALAS.PNG */,
-				6669F2901C2ABCE4005804B2 /* MINAGE.PNG */,
-				6669F2911C2ABCE4005804B2 /* MONICA4.0.PNG */,
-				6669F2921C2ABCE4005804B2 /* PALABRAMUJER.PNG */,
-				6669F28C1C2ABC1C005804B2 /* ElDespertar.mp3 */,
-				6669F28A1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 */,
-				6669F2881C2ABB43005804B2 /* PanteraEnLibertad.mp3 */,
-				6669F2861C2ABAD7005804B2 /* ChicasMalas.mp3 */,
-				6669F2841C2ABA3B005804B2 /* Sobrevivire.mp3 */,
-			);
-			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,18 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6669F28D1C2ABC1C005804B2 /* ElDespertar.mp3 in Resources */,
-				6669F2951C2ABCE4005804B2 /* MINAGE.PNG in Resources */,
-				6669F2971C2ABCE4005804B2 /* PALABRAMUJER.PNG in Resources */,
-				6669F2941C2ABCE4005804B2 /* CHICASMALAS.PNG in Resources */,
+				66A1C1D61C2EADF3008DB178 /* resources in Resources */,
 				6669F27C1C2AB87C005804B2 /* LaunchScreen.storyboard in Resources */,
-				6669F2851C2ABA3B005804B2 /* Sobrevivire.mp3 in Resources */,
-				6669F2961C2ABCE4005804B2 /* MONICA4.0.PNG in Resources */,
 				6669F2791C2AB87C005804B2 /* Assets.xcassets in Resources */,
-				6669F2871C2ABAD7005804B2 /* ChicasMalas.mp3 in Resources */,
-				6669F28B1C2ABBBC005804B2 /* AmarEsSoloAmor.mp3 in Resources */,
-				6669F2931C2ABCE4005804B2 /* ADAGIO.PNG in Resources */,
-				6669F2891C2ABB43005804B2 /* PanteraEnLibertad.mp3 in Resources */,
 				6669F2771C2AB87C005804B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +251,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = audioplayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jcantosm.audioplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,7 +264,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = audioplayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jcantosm.audioplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,6 +292,7 @@
 				6669F2821C2AB87C005804B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
