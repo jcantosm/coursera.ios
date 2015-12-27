@@ -43,10 +43,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     let ac = UIAlertController(title: "ISBN", message: "Problemas al cargar openlibrary.org",
                         preferredStyle: .Alert)
                     ac.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+                    
+                    // mostramos mensaje de error
                     self.presentViewController(ac, animated: true, completion: nil)
                 }
                 
                 if (data != nil) {
+                    // mostramos respuesta JSON
                     let json = NSString(data: data!, encoding: NSUTF8StringEncoding)
                     self.uiTextViewJSON.text = "\(json)"
                 }
