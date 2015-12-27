@@ -11,7 +11,9 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var uiTextISBN: UITextField!
-    @IBOutlet weak var uiTextViewJSON: UITextView!
+    @IBOutlet weak var uiLabelTitulo: UILabel!
+    @IBOutlet weak var uiLabelAutores: UILabel!
+    @IBOutlet weak var uiImageCover: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,11 +51,32 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 }
                 
                 if (data != nil) {
-                    // mostramos respuesta JSON
-                    let json = NSString(data: data!, encoding: NSUTF8StringEncoding)
-                    self.uiTextViewJSON.text = "\(json)"
+                    do {
+                        
+                        let json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableLeaves)
+                        let isbn = json as! NSDictionary
+                        
+                        let title = isbn["ISBN:\(self.uiTextISBN.text!)"] as! NSDictionary
+                        let authors = (isbn["ISBN:\(self.uiTextISBN.text!)"] as! NSDictionary)["authors"] as! NSArray
+                        let covers = (isbn["ISBN:\(self.uiTextISBN.text!)"] as! NSDictionary)["cover"] as! NSDictionary
+                        
+                        self.uiLabelTitulo.text = title["title"] as! NSString as String
+                        
+                        var tmp = ""
+                        for author in authors {
+                            tmp = tmp + (author["name"] as! NSString as String)
+                        }
+                        self.uiLabelAutores.text = tmp
+                        
+                        if (covers["large"] != nil) {
+                            let url = covers["large"] as! NSString as String
+                            self.uiImageCover.image = UIImage(data: NSData(contentsOfURL: NSURL(string: url)!)!)
+                        }
+                        
+                    } catch _ {
+                        print("Error al acceder a los datos de openlibrary.org")
+                    }
                 }
-
             }
         }
         
