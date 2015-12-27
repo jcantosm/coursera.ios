@@ -30,11 +30,33 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func connectTo() {
+        
         let library = "https://openlibrary.org/api/books?jscmd=data&format=json&bibkeys=ISBN:"
         let url = NSURL(string:"\(library)\(self.uiTextISBN.text!)")
-        let data : NSData? = NSData(contentsOfURL: url!)
-        let json = NSString(data:data!, encoding:NSUTF8StringEncoding)
-        self.uiTextViewJSON.text = "\(json)"
+        
+        let session = NSURLSession.sharedSession()
+        let block = { (data: NSData?, response: NSURLResponse?, error: NSError?) -> Void in
+            
+            dispatch_async(dispatch_get_main_queue()) {
+                
+                if ((error?.code) != nil) {
+                    let ac = UIAlertController(title: "ISBN", message: "Problemas al cargar openlibrary.org",
+                        preferredStyle: .Alert)
+                    ac.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+                    self.presentViewController(ac, animated: true, completion: nil)
+                }
+                
+                if (data != nil) {
+                    let json = NSString(data: data!, encoding: NSUTF8StringEncoding)
+                    self.uiTextViewJSON.text = "\(json)"
+                }
+
+            }
+        }
+        
+        let dt = session.dataTaskWithURL(url!, completionHandler: block)
+        dt.resume()
+        
     }
 }
 
