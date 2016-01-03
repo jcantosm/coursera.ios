@@ -70,22 +70,27 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
-        // inicializamos coordenada central del mapa
-        self.uiMapViewMapa.centerCoordinate = locations[0].coordinate
+        // ultima localizacion actualizada
+        let location = locations.last! as CLLocation
         
         // inicializamos punto nueva localizacion
         let pin = MKPointAnnotation()
         pin.coordinate = CLLocationCoordinate2D()
-        pin.title = "[\(locations[0].coordinate.latitude), \(locations[0].coordinate.longitude)]"
-        pin.subtitle = "\(locations[0].distanceFromLocation(self.current))"
-        pin.coordinate.latitude = locations[0].coordinate.latitude
-        pin.coordinate.longitude = locations[0].coordinate.longitude
+        pin.title = "[Latitud: \(location.coordinate.latitude), Longitud: \(location.coordinate.longitude)]"
+        pin.subtitle = "[Distancia: \(location.distanceFromLocation(self.current))]"
+        pin.coordinate.latitude = location.coordinate.latitude
+        pin.coordinate.longitude = location.coordinate.longitude
         
         // añadimos punto de localizacion
         if (locations[0].distanceFromLocation(self.current) > 50) {
-            self.current = locations[0]
+            self.current = location
             self.uiMapViewMapa.addAnnotation(pin)
         }
+        
+        // centramos mapa ultima posicion
+        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        self.uiMapViewMapa.setRegion(region, animated: true)
         
         print("[\(locations[0].coordinate.latitude), \(locations[0].coordinate.longitude), \(locations[0].distanceFromLocation(self.current))]")
     }
