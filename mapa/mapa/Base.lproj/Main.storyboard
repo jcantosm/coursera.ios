@@ -14,11 +14,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="GeY-WT-pPK">
-                                <rect key="frame" x="0.0" y="507" width="320" height="29"/>
+                                <rect key="frame" x="0.0" y="539" width="600" height="29"/>
                                 <segments>
                                     <segment title="Standard"/>
                                     <segment title="Satélite"/>
@@ -29,7 +29,7 @@
                                 </connections>
                             </segmentedControl>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="CEc-GB-JqR">
-                                <rect key="frame" x="0.0" y="28" width="320" height="455"/>
+                                <rect key="frame" x="0.0" y="28" width="600" height="487"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -43,7 +43,6 @@
                             <constraint firstItem="GeY-WT-pPK" firstAttribute="trailing" secondItem="CEc-GB-JqR" secondAttribute="trailing" id="jfQ-NQ-Npb"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="uiControlMap" destination="GeY-WT-pPK" id="TXd-f4-piq"/>
                         <outlet property="uiMapViewMapa" destination="CEc-GB-JqR" id="BVR-fa-2gf"/>
