@@ -8,10 +8,10 @@
 
 import UIKit
 
-class PizzaIngredientesViewController: UIViewController {
+// lista de ingredientes de pizza
+let ingredientes = ["Jamón", "Pepperoni", "Pavo", "Salchicha", "Aceituna", "Cebolla", "Pimiento", "Piña", "Anchoa"]
 
-    // lista de ingredientes de pizza
-    let ingredientes = ["Jamón", "Pepperoni", "Pavo", "Salchicha", "Aceituna", "Cebolla", "Pimiento", "Piña", "Anchoa"]
+class PizzaIngredientesViewController: UIViewController {
     
     // índice del tamaño de pizza seleccionado
     var tamanyo = 0
@@ -21,6 +21,9 @@ class PizzaIngredientesViewController: UIViewController {
     
     // índice del tipo de queso seleccionado
     var queso = 0
+
+    // lista de ingredientes seleccionados de la pizza
+    var pizza = Array<String>()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +32,7 @@ class PizzaIngredientesViewController: UIViewController {
         
         // recorremos lista de ingredientes
         var idx = 0
-        for item in self.ingredientes.sort() {
+        for item in ingredientes.sort() {
             addSelector(item, offset: ++idx * 35)
         }
     }
@@ -45,10 +48,29 @@ class PizzaIngredientesViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if (segue.identifier == "pizzaTipoQuesoSegue") {
+            let vc = segue.destinationViewController as! PizzaTipoQuesoViewController
+            vc.masa = self.masa
+            vc.queso = self.queso
+            vc.tamanyo = self.tamanyo
+            vc.pizza = self.pizza
+        }
+        if (segue.identifier == "pizzaConfirmacionSegue") {
+            let vc = segue.destinationViewController as! PizzaConfirmacionViewController
+            vc.masa = self.masa
+            vc.queso = self.queso
+            vc.tamanyo = self.tamanyo
+            vc.pizza = self.pizza
+        }
     }
     
     func switchValueDidChange(sender:UISwitch!) {
-        print("\(sender.restorationIdentifier) = '\(sender.on)'")
+        if let idx = self.pizza.indexOf(sender.restorationIdentifier!) {
+            self.pizza.removeAtIndex(idx)
+        }
+        if (sender.on) {
+            self.pizza.append(sender.restorationIdentifier!)
+        }
     }
     
     func addSelector(item : String, offset : Int) {
@@ -66,8 +88,8 @@ class PizzaIngredientesViewController: UIViewController {
     func addSwitch(text : String, offset : Int) -> UISwitch {
         let view = UISwitch(frame:CGRectMake(180, CGFloat(40 + offset), 0, 0))
         view.restorationIdentifier = text
-        view.on = false
-        view.setOn(false, animated: false)
+        view.on = self.pizza.indexOf(text) != nil
+        view.setOn(view.on, animated: false)
         view.addTarget(self, action: "switchValueDidChange:", forControlEvents: .ValueChanged)
         return view
     }

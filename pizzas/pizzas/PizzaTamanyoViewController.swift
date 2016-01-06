@@ -8,11 +8,11 @@
 
 import UIKit
 
-class PizzaTamanyoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+// lista de tamaños de pizzas
+let tamanyos = ["Chica", "Mediana", "Grande"]
 
-    // lista de tamaños de pizzas
-    let tamanyos = ["Chica", "Mediana", "Grande"]
-    
+class PizzaTamanyoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+   
     // índice del tamaño de pizza seleccionado
     var tamanyo = 0
     
@@ -22,6 +22,9 @@ class PizzaTamanyoViewController: UIViewController, UIPickerViewDelegate, UIPick
     // índice del tipo de queso seleccionado
     var queso = 0
 
+    // lista de ingredientes seleccionados de la pizza
+    var pizza = Array<String>()
+    
     @IBOutlet weak var uiPickerTamanyos: UIPickerView!
     
     override func viewDidLoad() {
@@ -44,11 +47,11 @@ class PizzaTamanyoViewController: UIViewController, UIPickerViewDelegate, UIPick
     }
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return self.tamanyos.count
+        return tamanyos.count
     }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return self.tamanyos[row]
+        return tamanyos[row]
     }
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
@@ -65,6 +68,7 @@ class PizzaTamanyoViewController: UIViewController, UIPickerViewDelegate, UIPick
         vc.masa = self.masa
         vc.queso = self.queso
         vc.tamanyo = self.tamanyo
+        vc.pizza = self.pizza
     }
 
 }
