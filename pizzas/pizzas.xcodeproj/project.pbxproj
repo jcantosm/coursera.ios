@@ -13,6 +13,7 @@
 		66830C431C3C4AF70059AADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66830C411C3C4AF70059AADD /* Main.storyboard */; };
 		66830C451C3C4AF70059AADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66830C441C3C4AF70059AADD /* Assets.xcassets */; };
 		66830C481C3C4AF70059AADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66830C461C3C4AF70059AADD /* LaunchScreen.storyboard */; };
+		66BF1F1B1C3D9765004BAD71 /* PizzaConfirmacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF1F1A1C3D9765004BAD71 /* PizzaConfirmacionViewController.swift */; };
 		66D178C71C3C4BA600502E06 /* PizzaTipoMasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D178C61C3C4BA600502E06 /* PizzaTipoMasaViewController.swift */; };
 		66D178C91C3C4BCA00502E06 /* PizzaTamanyoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D178C81C3C4BCA00502E06 /* PizzaTamanyoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		66830C441C3C4AF70059AADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66830C471C3C4AF70059AADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66830C491C3C4AF70059AADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BF1F1A1C3D9765004BAD71 /* PizzaConfirmacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaConfirmacionViewController.swift; sourceTree = "<group>"; };
 		66D178C61C3C4BA600502E06 /* PizzaTipoMasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaTipoMasaViewController.swift; sourceTree = "<group>"; };
 		66D178C81C3C4BCA00502E06 /* PizzaTamanyoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaTamanyoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 				66D178C61C3C4BA600502E06 /* PizzaTipoMasaViewController.swift */,
 				661647061C3C57A9002A39F0 /* PizzaTipoQuesoViewController.swift */,
 				661647081C3C5C32002A39F0 /* PizzaIngredientesViewController.swift */,
+				66BF1F1A1C3D9765004BAD71 /* PizzaConfirmacionViewController.swift */,
 				66830C411C3C4AF70059AADD /* Main.storyboard */,
 				66830C441C3C4AF70059AADD /* Assets.xcassets */,
 				66830C461C3C4AF70059AADD /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				66D178C71C3C4BA600502E06 /* PizzaTipoMasaViewController.swift in Sources */,
 				661647071C3C57A9002A39F0 /* PizzaTipoQuesoViewController.swift in Sources */,
 				661647091C3C5C32002A39F0 /* PizzaIngredientesViewController.swift in Sources */,
+				66BF1F1B1C3D9765004BAD71 /* PizzaConfirmacionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
