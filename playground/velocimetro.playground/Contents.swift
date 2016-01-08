@@ -112,7 +112,7 @@ class Auto {
 var auto = Auto()
 
 // bucle / iteracion de prueba
-for idx in 1...10 {
+for idx in 1...20 {
     print("[\(auto.velocidad.rawValue), \(auto.kmHoras)]")
     auto.cambioDeVelocidad()
 }
